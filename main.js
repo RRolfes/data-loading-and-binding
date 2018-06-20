@@ -6,4 +6,4 @@ d3.select('body')
   .enter()
   .append('p')
   // .text('D3 is awesome!');
-  .text(function(d) {return d; });
+  .text(function(d) {return d * 2; });
