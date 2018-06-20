@@ -5,4 +5,4 @@ d3.select('body')
   .data(data)
   .enter()
   .append('p')
-  .text('D3 is awesome!');
+  // .text('D3 is awesome!');
